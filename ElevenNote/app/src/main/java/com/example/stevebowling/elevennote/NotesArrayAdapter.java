@@ -50,6 +50,10 @@ public class NotesArrayAdapter extends ArrayAdapter<Note>{
 
         return notesRow;
     }
+    public void updateAdapter(ArrayList<Note> notes){
+        this.notes=notes;
+        super.notifyDataSetChanged();
+    }
 
 
 }

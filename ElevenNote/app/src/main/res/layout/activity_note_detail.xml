@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background1"
+    >
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="SAVE"
+        android:layout_marginEnd="11dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Title"
+        android:id="@+id/note_title"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        android:textSize="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/note_text"
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+        android:textSize="28dp"
+        android:textAlignment="viewStart"
+        android:gravity="top"
+        android:layout_marginTop="9dp"
+        android:layout_below="@+id/note_title"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />
+
+</RelativeLayout>
