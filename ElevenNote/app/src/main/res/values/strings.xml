@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ElevenNote</string>
+    <string name="text">Text</string>
+    <string name="date">Date</string>
+</resources>
