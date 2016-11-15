@@ -28,5 +28,5 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="171dp"
         android:id="@+id/screen2Button"
-        android:onClick="onClick"/>
+        android:onClick="onClickGoBack"/>
 </RelativeLayout>

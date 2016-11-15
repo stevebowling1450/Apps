@@ -13,7 +13,7 @@ public class Screen2 extends AppCompatActivity {
         setContentView(R.layout.activity_screen2);
     }
 
-    public void onClick(View view) {
+    public void onClickGoBack(View view) {
         Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
     }
